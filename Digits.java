@@ -22,9 +22,6 @@ public class Digits {
     thousanths= (((number/10)/10)/10)%10;
     System.out.println("the digit in the ones place is "+ones+". the digit in the tens place is "+tens+". the digit in the hundreds place is "+hundreds+". and the digit in the thousanths place is "+thousanths);
     
-    
-    
-
 }
 }
 
