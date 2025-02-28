@@ -11,9 +11,11 @@ public class TempConverter {
     double fahrenheit;
     Scanner input = new Scanner(System.in); 
     System.out.println("Enter the temperature in Fahrenheit ");
-    fahrenheit = input.nextInt();
-    celsius = 5/9*(fahrenheit-32);
+    fahrenheit = input.nextDouble();
+    celsius = (fahrenheit-32)*5/9;
     System.out.println("The grade temperature in Celsius is "+celsius);
+
+    
     }
 
 }
