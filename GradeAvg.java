@@ -29,6 +29,7 @@ public static void main (String[]args) {
     System.out.println("Enter a fifth grade ");
     grade5 = input4.nextInt();
     Average = (grade1+grade2+grade3+grade4+grade5)/5.0;
+    int Average
     System.out.println("The grade average is "+Average);
     }
 }
