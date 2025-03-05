@@ -15,5 +15,8 @@ public class ex1_div_and_mod {
     System.out.println("Enter a second integer: ");
     int2 = input.nextInt();
     System.out.println(int1 +" / "+int2 +" = "+(int1/int2) );
+    System.out.println(int1 +" % "+int2 +" = "+(int1%int2) );
+    System.out.println(int2 +" / "+int1 +" = "+(int2/int1) );
+    System.out.println(int2 +" % "+int1 +" = "+(int2%int1) );
 }
 }
