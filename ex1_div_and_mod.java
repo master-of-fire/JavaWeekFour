@@ -7,13 +7,13 @@
 import java.util.*;
 public class ex1_div_and_mod {
     public static void main(String[]args) {
-    double int1;
-    double int2;
+    int int1;
+    int int2;
     Scanner input = new Scanner(System.in); 
     System.out.println("Enter an integer: ");
-    int1 = input.nextDouble();
+    int1 = input.nextInt();
     System.out.println("Enter a second integer: ");
-    int2 = input.nextDouble();
+    int2 = input.nextInt();
     System.out.println(int1 +" / "+int2 +" = "+(int1/int2) );
 }
 }
