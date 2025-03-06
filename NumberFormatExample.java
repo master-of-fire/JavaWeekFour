@@ -1,4 +1,4 @@
-import java.text.NumberFormat;
+import java.text.NumberFormat; //copy this
 public class NumberFormatExample
 {
    
@@ -13,12 +13,12 @@ public class NumberFormatExample
             NumberFormat money = NumberFormat.getCurrencyInstance();
             NumberFormat number = NumberFormat.getIntegerInstance();
             NumberFormat decimal= NumberFormat.getNumberInstance();
-            NumberFormat percent= NumberFormat.getPercentInstance();
+            NumberFormat percent= NumberFormat.getPercentInstance();//copy this
 
             System.out.println(money.format(dollars));
             System.out.println(number.format(num));
             System.out.println(decimal.format(numWithDecimal));
-            System.out.println(percent.format(sale));
+            System.out.println(percent.format(sale));//need this (totalaub) 
 }
 }
 
