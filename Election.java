@@ -13,15 +13,15 @@ public class Election {
     int NYMartinez;
     int NJMartinez;
     int ConMartinez;
-    double AwbreyTotal;
-    double MartinezTotal;
+    int AwbreyTotal;
+    int MartinezTotal;
     double total;
     double MartinezPercent;
     double AwbreyPercent;
     NYAwbrey = 314159;
     NJAwbrey = 89008;
     ConAwbrey = 213451;
-    NYMartinez = 271869;
+    NYMartinez = 271860;
     NJMartinez = 121032;
     ConMartinez = 231034;
     AwbreyTotal = NYAwbrey+NJAwbrey+ConAwbrey;
@@ -33,7 +33,10 @@ public class Election {
     NumberFormat percent= NumberFormat.getPercentInstance();
     System.out.println(percent.format(AwbreyPercent));
     System.out.println(percent.format(MartinezPercent));
-    System.out.println();
+    System.out.println("Candidate\t Votes    Percentage");
+    System.out.println("Awbrey   \t"+AwbreyTotal+"\t\t "+(percent.format(AwbreyPercent)));
+    System.out.println("Martinez   \t"+MartinezTotal+"\t\t "+(percent.format(MartinezPercent)));
+    System.out.println("\nTOTAL VOTES\t"+total);
     
 
 
