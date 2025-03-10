@@ -39,9 +39,10 @@ public class Sleep {
     tday = input.nextInt();
     sleepYears = tyear - byear;
     sleepMonths = tmonth - bmonth;
+    sleepDays = tday - bday
     total1 = sleepYears*365;
     total2 = sleepMonths*30;
-    total3 = tday - bday;
+    total3 = sleepDays+
     total4 = total1+total2+total3;
     System.out.println("You have been alive for "+total3+" days.");
      
